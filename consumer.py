@@ -1,7 +1,6 @@
 
 import threading
 
-
 class Consumer(threading.Thread):
     def __init__(self, queue):
         super().__init__()
@@ -13,7 +12,6 @@ class Consumer(threading.Thread):
 
         while True:
             chunk = self.queue.get()
-
             try:
                 if chunk is None:
                     break
