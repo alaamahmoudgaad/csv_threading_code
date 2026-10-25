@@ -87,4 +87,4 @@
           All threads finished!
           Total matching rows: 632
           Total rows processed: 46080374
-          All threads finished! لو استخدمت الاكواد دي كده تمام
+          All threads finished! 
